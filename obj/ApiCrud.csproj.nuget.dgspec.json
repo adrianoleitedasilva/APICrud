@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\ApiCrud\\ApiCrud.csproj": {}
+    "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\APICrud\\ApiCrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\ApiCrud\\ApiCrud.csproj": {
+    "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\APICrud\\ApiCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\ApiCrud\\ApiCrud.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\APICrud\\ApiCrud.csproj",
         "projectName": "ApiCrud",
-        "projectPath": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\ApiCrud\\ApiCrud.csproj",
+        "projectPath": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\APICrud\\ApiCrud.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\ApiCrud\\obj\\",
+        "outputPath": "C:\\Users\\adria\\OneDrive\\Documentos\\Github Desktop\\APICrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
